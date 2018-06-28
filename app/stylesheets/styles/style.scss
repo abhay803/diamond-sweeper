@@ -1,0 +1,32 @@
+@import 'large.scss';
+@import 'medium.scss';
+@import 'small.scss';
+@import 'shared.scss';
+@import 'buttons.scss';
+
+
+table.diamondsweeper-board {
+  td {
+    padding: 0;
+    border: 1px solid black;
+  }
+}
+
+.cell {
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+
+  &.diamond {
+    background-image: url(../images/diamond.png);
+  }
+
+  &.arrow {
+    background-image: url(../images/arrow.png);
+  }
+
+  &.unknown {
+    background-image: url(../images/question.png);
+  }
+}

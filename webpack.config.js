@@ -17,7 +17,7 @@ const BABEL_PRESET = {
 module.exports = {
     entry: {
       app: "./app/client/app.js",
-      style: "./app/stylesheets/style.scss"
+      style: "./app/stylesheets/styles/style.scss"
     },
     output: {
         path: OUTPUT_DIRECTORY,
